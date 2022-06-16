@@ -7,6 +7,14 @@
     font-family: roboto, sans-serif;
 }
 
+:root{
+    --principal: #001157;
+    --secundaria: #3C5CDD;
+    --terciaria: #002BD6;
+    --q: #1A2657;
+    --c: #0021A3;
+}
+
 html{
     font-size: 62.5%;
 }
