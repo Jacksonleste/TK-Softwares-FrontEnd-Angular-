@@ -8,11 +8,12 @@
 }
 
 :root{
-    --principal: #001157;
-    --secundaria: #3C5CDD;
-    --terciaria: #002BD6;
-    --q: #1A2657;
-    --c: #0021A3;
+    --page-background: #5A6978;
+    --escura1: #001157;
+    --escura2: #1A2657;
+    --intermediaria: #0021A3;
+    --clara1: #002BD6;
+    --clara2: #3C5CDD;
 }
 
 html{

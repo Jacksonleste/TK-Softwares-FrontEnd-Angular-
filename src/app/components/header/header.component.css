@@ -4,6 +4,8 @@ header{
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 header #logo{
@@ -28,6 +30,10 @@ form{
     align-items: center;
     margin: 0 4rem;
 }
+
+/* input:focus-visible form{
+    transform: scale(1.2);
+} */
 
 form button {
     padding: 0 1rem;
