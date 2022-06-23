@@ -1,5 +1,5 @@
 <header>
-    <img id="logo" src="/assets/logo.png" alt="Logo tkSoftwares">
+    <a [routerLink]="['/home']"><img id="logo" src="/assets/logo.png" alt="Logo tkSoftwares"></a>
 
     <nav>
         <p>Categorias</p>
@@ -7,8 +7,8 @@
         <p>Licença</p>
     </nav>
 
-    <form action="">
-        <input type="search">
+    <form >
+        <input type="search" id="search" name="search">
         <button type="submit"><i class="fa-solid fa-magnifying-glass fa-2xl" ></i></button>
     </form>
 

@@ -5,17 +5,18 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProductComponent } from './components/product/product.component';
-import { BodyComponent } from './components/body/body.component';
+import { DetailProductComponent } from './components/detail-product/detail-product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductComponent,
-    BodyComponent,
+    DetailProductComponent
   ],
   imports: [
     HttpClientModule,

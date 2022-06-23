@@ -50,10 +50,10 @@ form button:hover, input:hover{
 
 input {
     padding: .5rem 1rem;
-    color: white;
+    color: rgb(0, 0, 81);
     height: 4rem;
     width: 15rem;
-    background-color: #0021A3;
+    background-color: rgb(223, 223, 223);
     border-radius:   1.5rem 0 0 1.5rem;
     transition: .4s;
 }

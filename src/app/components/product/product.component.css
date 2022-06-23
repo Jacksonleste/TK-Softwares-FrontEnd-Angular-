@@ -1,37 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
 
+
 .container {
+
+  background-color: var(--page-background);
+  width: 80vw;
+  max-width: 100rem;
+  height:fit-content;
+
+  padding: 6rem 5vw;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  padding: 3rem;
-  width: 80vw;
-  max-width: 100rem;
-  margin-block: 2rem;
+  min-height: 90vh;
   gap: 2rem;
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  object-fit: scale-down;
   display: block;
   object-fit: cover;
   -webkit-user-drag: none;
-  
-}
-
-img:-moz-drag-over{
 }
 
 .card {
-  /* margin: auto; */
   display: flex;
   flex-direction: column;
-  width: clamp(20rem, calc(20rem + 2vw), 22rem);
-  overflow: hidden;
-  box-shadow: .5rem .3rem 1rem rgba(0, 0, 0, 0.396);
-  border-radius: 1.5rem;
+
   background: #ECE9E6;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+
+
+  width: 22rem;
+  overflow: hidden;
+  box-shadow: .5rem .3rem 1rem rgba(0, 0, 0, 0.25);
+  border-radius: 1.5rem;
   cursor: pointer;
   transition: transform .4s;
   user-select: none;
@@ -39,7 +44,7 @@ img:-moz-drag-over{
 
 .card:hover {
   transform: rotateZ(1.5deg) scale(1.04);
-  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.396);
+  box-shadow: .8rem .9rem 1.2rem rgba(0, 0, 0, 0.30);
 }
 
 .card:active{
