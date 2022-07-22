@@ -2,12 +2,14 @@
 <div class="container" >
 
     <div class="card" *ngFor="let product of products">
-      <div class="card__header" [routerLink]="['/product']">
+      <div class="card__header">
         <img src={{product.imgCapa}} alt="card__image" class="card__image">
       </div>
       <div class="card__body">
         <span class="tag tag-blue">{{product.nome}}</span>
         <p class="price">R${{product.preco}}</p>
+        <span class="tag tag-brown">{{product.tipo}}</span>
+        <span class="tag tag-brown">{{product.categoria}}</span>
       </div>
     </div>
     <p *ngIf="teste">{{texto}}</p>

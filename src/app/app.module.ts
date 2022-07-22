@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { HttpClientModule } from '@angular/common/http';
 
+import { NgxCaptchaModule } from 'ngx-captcha';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,6 +20,7 @@ import { DetailProductComponent } from './components/detail-product/detail-produ
     DetailProductComponent
   ],
   imports: [
+    NgxCaptchaModule,
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,

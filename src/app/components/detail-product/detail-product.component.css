@@ -1,0 +1,44 @@
+.container {
+    background-color: var(--page-background);
+    width: 80vw;
+    max-width: 100rem;
+    height: fit-content;
+  
+    padding: 6rem 5vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    min-height: 90vh;
+    gap: 3rem;
+    color: white;
+    /* font-size: 3rem; */
+}
+
+.logo{
+    width: 30vw;
+    padding: 0;
+    filter: drop-shadow(.5rem .5rem 1rem rgba(0, 0, 0, 0.552));
+}
+
+.banner{
+    width: 50vw;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.preco{
+    font-size: 2.5rem;
+}
+
+.descricao{
+    font-size: 2rem;
+}
